@@ -1,0 +1,42 @@
+{
+  "name": "nasa-apod",
+  "version": "1.0.0",
+  "description": "Website to fetch NASA Astronomy Picture of the Day (APOD) and show it.",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "cross-env NODE_ENV=development nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pankaj1251/NASA-APOD.git"
+  },
+  "author": "Pankaj Pandit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pankaj1251/NASA-APOD/issues"
+  },
+  "homepage": "https://github.com/pankaj1251/NASA-APOD#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "connect-mongo": "^5.0.0",
+    "connect-mongodb-session": "^3.1.1",
+    "csurf": "^1.11.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.4",
+    "express-session": "^1.17.3",
+    "moment": "^2.29.4",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.9",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
