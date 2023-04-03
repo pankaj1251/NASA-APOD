@@ -12,4 +12,7 @@ router.get("/home", ensureAuth, (req, res) => {
   res.render("home");
 });
 
+router.get("/apod", (req, res) => {
+  res.send("APODDDD");
+});
 module.exports = router;

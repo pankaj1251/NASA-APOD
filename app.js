@@ -30,8 +30,6 @@ app.engine(
   exphbs.engine({
     defaultLayout: "main",
     extname: ".hbs",
-    // layoutsDir: path.join(__dirname, "views/layouts"),
-    // layoutsDir: "views/layouts/",
   })
 );
 app.set("view engine", ".hbs");
