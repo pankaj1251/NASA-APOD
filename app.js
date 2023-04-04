@@ -59,7 +59,8 @@ app.use("/", require("./routes/index"));
 app.use("/auth", require("./routes/auth"));
 app.use("/apod", require("./routes/apod"));
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.VERCEL_;
+PORT || 3000;
 
 app.listen(
   PORT,
