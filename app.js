@@ -10,7 +10,7 @@ const session = require("express-session");
 const MongoStore = require("connect-mongo")(session);
 const connectDB = require("./config/db");
 
-// dotenv.config({ path: "config.env" });
+dotenv.config({ path: "config.env" });
 
 //passport config
 require("./config/passport")(passport);
@@ -59,8 +59,7 @@ app.use("/", require("./routes/index"));
 app.use("/auth", require("./routes/auth"));
 app.use("/apod", require("./routes/apod"));
 
-const PORT = process.env.VERCEL_;
-PORT || 3000;
+const PORT = process.env.VERCEL_PORT || 3000;
 
 app.listen(
   PORT,
