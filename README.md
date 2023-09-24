@@ -53,3 +53,7 @@ The application has been deployed using Vercel. To deploy the application to Ver
 
 - [@Pankaj Pandit](https://github.com/pankaj1251)
 
+![1](https://github.com/pankaj1251/NASA-APOD/assets/62792492/0591c24c-1032-42f4-91c2-0d0012977b6b)
+![2](https://github.com/pankaj1251/NASA-APOD/assets/62792492/ddf1d943-78bb-4dff-9ab9-d435d99d4c3e)
+![3](https://github.com/pankaj1251/NASA-APOD/assets/62792492/b51e2c16-f096-45a3-81a7-4c7eeedf0860)
+![4](https://github.com/pankaj1251/NASA-APOD/assets/62792492/c71c7f19-b6a3-406c-955b-38ad491a5f9e)
